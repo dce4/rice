@@ -58,6 +58,7 @@ cursor-scroll = ns-resize
 
 
 ### External Bar Start ###
+# Currently it starts 2 different bars, this one for external monitor 
 [bar/external]
 monitor = ${env:MONITOR:HDMI-1}
 width = 100%
@@ -182,6 +183,7 @@ ws-icon-9 = 10;
 type = internal/backlight
 ; Use the following command to list available cards:
 ; $ ls -1 /sys/class/backlight/
+; as you can see, it uses light instead of xbacklight
 card = intel_backlight
 enable-scroll = true
 exec = light
