@@ -1,7 +1,8 @@
 # rice
 yet another "yet another dotfiles repository" repository.
 
-i3gapps, polybar setup and more:
+This repo comprises of my i3gapps, polybar setup and more.
+Firefox theme is ![here](https://color.firefox.com/?theme=XQAAAAIXBAAAAAAAAABBKYhm849SCicxcUapi38oKRicm6da8o_u7cajvY2nrbwtWf53IW6FuNYUbmDc3gyZbFcmGEerozp3Ktp8r238oOr63NUUQ49jOQfyZVzdSmy_uVwmsaXAa4PPPGBuRbB5eCfvrhfoIgVBoNbYyBNF8i9B2Xkyd2Wxl5ZObCxh0FKOzt4NUuTEgKmoKA5o0z0bBBe90rgQABbC3Fo60k-R20dWVKuB5iu5vT4syH94U7bQZBBCkuKsorwPcEo9vZtiQuMkjZPjfWkUniF8GQ1J7FSVBcrRy9LYFyYLIEls6siPyT0wzj2k29zHfYyu2JEZrHQdsD9jiUHz30ji-HOrm3mCE0cTD-ZPDodHGJ5icj8XJ9jAqP4kTnKU0yk9t1_Cu74hNhc0bMkLZzGDp6xD-wZsH7JAC6MwaSAxe7cuAV-meRdKqojjY2HGKrHLt2QxVS4gRnBvC7kf3ps9PR2O-FSowSnC6pcKsA3fw4VoBc79hP_tqvtG)
 
 Usually looks like this:
 ![ss1](https://github.com/dce4/rice/blob/main/ss1.png?raw=true)
