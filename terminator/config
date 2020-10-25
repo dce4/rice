@@ -1,0 +1,33 @@
+[global_config]
+  handle_size = 3
+  window_state = hidden
+  borderless = True
+  tab_position = hidden
+  title_inactive_bg_color = "#767676"
+  enabled_plugins = MavenPluginURLHandler, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminalShot, ActivityWatch, InactivityWatch, Logger, TestPlugin, CustomCommandsMenu
+  title_use_system_font = False
+  title_font = IBM Plex Mono 9
+[keybindings]
+  prev_tab = <Primary><Shift>Tab
+[profiles]
+  [[default]]
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = IBM Plex Mono weight=450 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#ff0000:#00cd00:#cdcd00:#2a26ff:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+    rewrap_on_resize = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
