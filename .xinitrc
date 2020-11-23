@@ -32,11 +32,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# starting external screen
-$HOME/.screenlayout/external_default.shi &
-
+# start volume input/output applet
+pasystray &
 # start udiskie for automounting
-udiskie --tray --no-notify & 
+udiskie --tray & 
 
 # start bluetooh manager applet
 blueman-applet &
