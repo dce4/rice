@@ -288,6 +288,7 @@ bindsym $mod+v exec --no-startup-id $HOME/.config/scripts/i3/greenclip-copy.sh
 
 # Set mod+space to change keyboard layout
 bindsym $mod+space exec --no-startup-id ~/.config/scripts/polybar/change-keyboard.sh
+exec_always --no-startup-id setxkbmap tr
 
 # Workspace Bindings
 for_window [class="Joplin"] move workspace $ws7
