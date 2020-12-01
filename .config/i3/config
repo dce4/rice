@@ -268,7 +268,7 @@ client.urgent		$alertcolor	$alertcolor		$primary	$alertcolor
 #}
 
 # Keybinding for i3lock
-bindsym $mod+l exec --no-startup-id $HOME/.config/scripts/i3/lock
+bindsym $mod+l exec --no-startup-id /usr/bin/i3lock-fancy-rapid 1 10
 
 # Window Compositor
 exec_always --no-startup-id picom -f
