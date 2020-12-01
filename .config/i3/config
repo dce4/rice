@@ -256,7 +256,7 @@ client.urgent		$alertcolor	$alertcolor		$primary	$alertcolor
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 # bar {
-#        status_command i3blocks -c /home/phi/.config/i3blocks/i3blocks.conf
+#        status_command i3blocks -c $HOME/.config/i3blocks/i3blocks.conf
 #	colors {
 #		background $bgcolor
 #		separator #333333
@@ -277,17 +277,16 @@ exec_always --no-startup-id picom -f
 bindsym Print exec --no-startup-id flameshot gui
 
 # toggle touchpad on/off with fn+f9
-bindsym XF86TouchpadToggle exec --no-startup-id /home/phi/.config/scripts/polybar/toggle-touchpad.sh
+bindsym XF86TouchpadToggle exec --no-startup-id $HOME/.config/scripts/polybar/toggle-touchpad.sh
 
 # Polybar Launch Script
 exec_always --no-startup-id $HOME/.config/scripts/polybar/launch.sh
 
-# Greenclip Daemon and Shortcut
+# Greenclip Shortcut
 bindsym $mod+v exec --no-startup-id $HOME/.config/scripts/i3/greenclip-copy.sh 
-#exec_always --no-startup-id $HOME/.config/scripts/i3/greenclip-daemon.sh
 
 # Set mod+space to change keyboard layout
-bindsym $mod+space exec --no-startup-id ~/.config/scripts/polybar/change-keyboard.sh
+bindsym $mod+space exec --no-startup-id $HOME/.config/scripts/polybar/change-keyboard.sh
 exec_always --no-startup-id setxkbmap tr
 
 # Workspace Bindings

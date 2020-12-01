@@ -45,10 +45,14 @@ udiskie --tray &
 blueman-applet &
 
 # setting wallpaper
-feh --bg-fill /home/phi/downloads/wp1.png
+feh --bg-fill $HOME/media/images/wallpapers/wp1.png
 
 # setting screen resolutions
 $HOME/.screenlayout/external-default.sh
 
-# starting i3 with X
+# starting window compositor picom
+picom -f &
+
+# start i3 with X
 exec i3
+
