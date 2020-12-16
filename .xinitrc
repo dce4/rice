@@ -53,6 +53,9 @@ blueman-applet &
 # starting window compositor picom
 picom -f &
 
+# starting redshift 
+redshift -l 41:28 &
+
 # start i3 with X
 exec i3
 

@@ -1,0 +1,27 @@
+xterm*background: #000000 
+xterm*foreground: #ffffff
+xterm*cursorColor: #d0d0d0
+xterm*color0: #000000
+xterm*color1: #800000
+xterm*color2: #008000
+xterm*color3: #808000
+xterm*color4: #000080
+xterm*color5: #800080
+xterm*color6: #008080
+xterm*color7: #c0c0c0
+xterm*color8: #808080
+xterm*color9: #ff0000
+xterm*color10: #00ff00
+xterm*color11: #ffff00
+xterm*color12: #0087ff
+xterm*color13: #ff00ff
+xterm*color14: #00ffff
+xterm*color15: #ffffff
+
+xterm*VT100.Translations: #override \
+		Ctrl Shift <Key>V:	insert-selection(SELECT)
+		Ctrl Shift <Key>C:	copy-selection(SELECT)
+
+XTerm.vt100.selectToClipboard: true
+XTerm.vt100.faceName: IBM Plex Mono:size=10:antialias=true
+XTerm.termName: xterm-256color
